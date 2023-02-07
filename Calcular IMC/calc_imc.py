@@ -4,7 +4,7 @@ while True:
     print('='*10+'Calculadora IMC'+'='*10)
     nome = input('Digite o seu nome: ')
     peso = float(input('Entre com o seu peso: '))
-    altura = float(input('Entre com a sua altura: '))
+    altura = float(input('Entre com a sua altura: (Exemplo: 1.75) '))
     imc = peso/altura**2
     print(f'O resultado do imc foi: {imc:,.0f}')
 
